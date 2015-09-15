@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jquery鼠标悬停显示二维码特效 - 站长素材</title>
+</head>
+
+<body>
+
+<link rel="stylesheet" type="text/css" href="case.css"/>
+
+<!--内容部分-->
+<div class="main clearfix">
+  <div class="mod_fr1">
+    <div class="cust_tle">微房产</div>
+    <div class="modlist">
+      <ul class="modpic">
+        		<li><a href="javascript:;" class="modmore"><img src="images/02e322e45e97a11820c7ae.png" alt="21世纪不动产"><span><p>21世纪不动产</p><img src="images/7371f509deff7bb13b3c51.jpg" alt="21世纪不动产"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/80c955a07cb5cb43ed77bf.png" alt="绿地曼哈顿"><span><p>绿地曼哈顿</p><img src="images/5bf557a03e5c7e1d116c84.jpg" alt="绿地曼哈顿"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/5d299e9b763e89e667b8ab.png" alt="诺亚新天地"><span><p>诺亚新天地</p><img src="images/f3e421ab74baec501d2461.jpg" alt="诺亚新天地"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/2bbcf0008f69816839d837.png" alt="象屿地产"><span><p>象屿地产</p><img src="images/1d2755672813bcad0562e9.jpg" alt="象屿地产"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/9d1befff848e0fb6be5b98.png" alt="星光耀"><span><p>星光耀</p><img src="images/a87006767c987324fe7846.jpg" alt="星光耀"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/5f2aa06124d4db8bfbe5b7.png" alt="印象江南"><span><p>印象江南</p><img src="images/ed586244e8e1f479f7b862.jpg" alt="印象江南"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/0f32d337b9fb5ccc3f1266.png" alt="五洲国际"><span><p>五洲国际</p><img src="images/c84f5eef19fdca8de443ea.jpg" alt="五洲国际"></span></a></li>
+        		<li><a href="javascript:;" class="modmore"><img src="images/6d18af58215da100140f7a.png" alt="山水年华"><span><p>山水年华</p><img src="images/e6f2b6883e748561ed4695.jpg" alt="山水年华"></span></a></li>
+              </ul>
+    </div>
+	
+  </div>
+</div>
+
+<!--底部部分-->
+
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(".modmore").hover(function(){
+  $(this).find("span").stop().animate({top: '100px'},200);
+},function(){
+  $(this).find("span").stop().animate({top: '260px'},200);
+})
+</script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. </p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+</body>
+</html>
+
+
